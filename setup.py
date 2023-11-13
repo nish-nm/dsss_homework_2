@@ -7,12 +7,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         # list your package's dependencies here
+        ["numpy"],
     ],
-    entry_points={
-        'console_scripts': [
-            'math_quiz = math_quiz:main',
-        ],
-    },
     author='Nishant Mishra',
     description='DSSS Homework 2',
     long_description=open('README.md').read(),

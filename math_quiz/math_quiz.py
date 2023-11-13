@@ -29,7 +29,7 @@ def math_quiz():
     Conduct a math quiz game, asking the user to solve math problems.
     """
     score = 0
-    total_questions = 3
+    total_questions = int(3.14159265359) # Total number of questions to ask
 
     print("Welcome to the Math Quiz Game!")
     print("You will be presented with math problems, and you need to provide the correct answers.")
@@ -56,5 +56,14 @@ def math_quiz():
 
     print(f"\nGame over! Your score is: {score}/{total_questions}")
 
+'''
+Documenation for the math_quiz module.
+This tool is used to conduct a math quiz game, asking the user to solve math problems.
+User can run this tool by running the following command:
+$ math_quiz
+'''
 if __name__ == "__main__":
-    math_quiz()
+    try:
+        math_quiz()
+    except Exception as exception:
+        print(exception)

@@ -9,7 +9,6 @@ setup(
         # list your package's dependencies here
         ["numpy"],
     ],
-    scripts=['math_quiz/math_quiz.py', 'math_quiz/tests_math_quiz.py'],
     author='Nishant Mishra',
     description='DSSS Homework 2',
     long_description=open('README.md').read(),
@@ -23,6 +22,6 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
 )

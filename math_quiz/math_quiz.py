@@ -62,8 +62,13 @@ This tool is used to conduct a math quiz game, asking the user to solve math pro
 User can run this tool by running the following command:
 $ math_quiz
 '''
-if __name__ == "__main__":
+
+def main():
     try:
         math_quiz()
     except Exception as exception:
         print(exception)
+
+if __name__ == "__main__":
+    main()
+    

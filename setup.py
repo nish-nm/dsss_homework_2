@@ -9,6 +9,7 @@ setup(
         # list your package's dependencies here
         ["numpy"],
     ],
+    scripts=['math_quiz/math_quiz.py', 'math_quiz/tests_math_quiz.py'],
     author='Nishant Mishra',
     description='DSSS Homework 2',
     long_description=open('README.md').read(),
